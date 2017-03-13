@@ -2,15 +2,15 @@ body {
   background: #777;
   margin-left: 20px;
   margin-right: 20px;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 header, nav, section, aside, footer {
-  text-align: center;
   background: #ebebeb;
   color: #777;
   width: 960px;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 18px;
   padding: 8px;
 }
 
@@ -21,35 +21,25 @@ header, nav, section, aside, footer {
 section {
   position: relative;
   float: left;
-  text-align: center;
   background: #ebebeb;
   color: #777;
   width: 495px;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 18px;
   z-index: -2;
 }
 
 article {
-  position: absolute;
-  text-align: center;
   background: #777;
   color: #ebebeb;
   position: relative;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 18px;
   padding: 8px;
   z-index: -1;
 }
 
 aside {
   position: relative;
-  text-align: center;
   background: #ebebeb;
   color: #777;
   width: 420px;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 18px;
   padding: 8px;
   padding-bottom: 100%;
   margin-bottom: -100%;
@@ -57,25 +47,17 @@ aside {
 }
 
 h1 {
-  position: absolute;
-  text-align: center;
   background: #ebebeb;
   color: #777;
   position: relative;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 18px;
   padding: 20px;
   font-weight: bold;
 }
 
 p.content {
-  position: absolute;
-  text-align: center;
   background: #ebebeb;
   color: #777;
   position: relative;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 18px;
   padding: 20px;
 }
 
